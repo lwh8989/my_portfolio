@@ -1,0 +1,21 @@
+@import "./_sprite.less";
+
+body {
+    background-color: #fff;
+}
+
+body > h1 {
+    font-size: 300%;
+    color: #ff5000;
+}
+
+.icon {
+    display: inline-block;
+    vertical-align: middle;
+    &-sample-a {
+        .sprite(@arrow-right-16x12);
+    }
+    &-sample-b {
+        .sprite(@arrow-right-16x12-over);
+    }
+}

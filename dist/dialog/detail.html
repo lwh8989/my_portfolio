@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>   
+    <link rel="stylesheet" href="/css/share/_reset.css">
+    <link rel="stylesheet" href="/css/store.css">    
+    <script type="text/javascript" src="/js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.easing.min.js"></script>
+    <script type="text/javascript" src="/js/ui.js"></script>
+    
+   <style>
+       body.store #wrapper,
+       body.store
+       {
+           background:#000;
+       }   
+       .dialog{margin-top:30px;position:relative;}
+    </style>
+
+</head>
+<body class="store">
+<div id="wrapper" >
+	<div class="skipNav">
+		<a href="#content">메뉴 건너 뛰기</a>
+	</div>
+	<!-- header -->
+	<header id="header">
+		
+	</header>
+	<!-- //header -->
+    <div class="body default">
+        <!-- container -->
+        <div class="page">        
+            <div id="content">
+                <!-- contents -->                       
+                <div class="page-body">       
+                      
+
+                
+                  </div>
+                <!-- //contents -->			
+            </div>  
+        </div>
+        <!-- //container -->
+        
+    
+            
+    </div>	
+	<!-- footer -->
+	<footer id="footer" class="footer">
+    
+</footer>
+	<!-- //footer -->	
+</div>    
+
+
+
+<div class="dialog dialog-alert">
+    <div class="dialog-content">          
+        <div class="dialog-body">
+            <p class="message">로그인 후 이용하실 수 있습니다. <br />로그인 화면으로 이동하시겠습니까?</p>
+        </div>             
+        <div class="dialog-footer">
+            <div class="form-actions">
+                <div class="form-actions_center">
+                    <button type="button" class="btn btn-sm color-c size-a">
+                        <span class="btn-text">취소</span>
+                    </button>  
+                    <button type="button" class="btn btn-sm color-a size-a">
+                        <span class="btn-text">확인</span>
+                    </button>  
+                </div>
+            </div>
+        </div>           
+        
+        <button type="button" class="dialog-close"> <i class="icon icon-x icon-xs"></i></button>
+    </div>    
+</div>
+
+<div class="dialog dialog-terms dialog-sm">
+    <div class="dialog-content">
+        <div class="dialog-header">
+            <h3 class="dialog-title">패키지 상점 이용 약관</h3>
+        </div>   
+        <div class="dialog-body">
+            <div class="well well-terms "> 
+                제1조 목적<br>
+                이 약관은 ㈜스마일게이트 스토브(이하 “회사”)가 온라인으로 제공하는 STOVE및 이에 부수된 제반 서비스(이하 “서비스”)의 이용과 관련하여 “회사”와 “이용자” 간의 권리, 의무 및 책임사항, 기타 필요한 사항을 규정함을 목적으로 합니다.<br><br>
+
+                제2조 용어의 정의<br>
+                1. 본 약관에서 사용하는 용어의 정의는 다음과 같습니다.<br>
+
+                1) “서비스”란, 구현되는 단말기(PC, 휴대형단말기 등의 각종 유무선 장치를 포함)와 상관없이 “이용자”가 이용할 수 있는 STOVE 및 이에 부수된 제반 서비스를 의미합니다.<br>
+                2) “이용자”란, 본 약관에 동의하고 “서비스” 이용자격을 부여 받은 자를 의미하며 “이용자”의 종류는 아래와 같이 구분됩니다.<br>
+
+                ① 회원 : “계정” 및 “비밀번호”를 사용하여 “회사”가 제공하는 “서비스”를 이용하는 자<br>
+                ② 게스트 : “계정” 및 “비밀번호”의 신청 없이, “회사”가 불규칙하게 부여하는 “계정”을 통해 “서비스”를 이용하는 자. (단, 게스트는 “계정”, “비밀번호” 정보를 받지 않기 때문에     <br>
+            </div>
+        </div>             
+        <div class="dialog-footer">
+            <div class="form-actions">
+                <div class="form-actions_center">
+                    <button type="button" class="btn btn-sm color-a size-a">
+                        <span class="btn-text">확인</span>
+                    </button>  
+                </div>
+            </div>
+        </div>           
+        
+        <button type="button" class="dialog-close"> <i class="icon icon-x icon-xs"></i></button>
+    </div>    
+</div>
+<div class="dialog dialog-posts-view">
+    <div class="dialog-content">
+        <div class="dialog-header">
+            <h3 class="dialog-title">업데이트</h3>
+        </div>   
+        <div class="dialog-body">
+            <div class="posts-group">
+                <div class="posts-group_header">
+                     <div class="thumb-group prfile-group">
+                        <div class="thumb-group_img middle">
+                            <img class="cover" src="/images/temp/42769d06-4d08-4b84-98c9-90d632a219b1.png" >
+                        </div>
+                        <div class="thumb-group_text">
+                            <div class="prfile-group_namebar">
+                                <span class="name">봉다미</span>
+                                <span class="nick">[스토미]</span>
+                            </div>
+                            <div class="prfile-group_timebar">
+                                <time datetime="" class="time">방금전</time>                            
+                            </div>
+                        </div>
+                    </div>                        
+                </div>
+                <div class="posts-group_body">    
+                    <div class="fr-view">
+                        <p>게시물 내용이 노출됩니다.  게시물 내용이 노출됩니다.  게시물 내용이 노출됩니다.  게시물 내용이 노출됩니다.  게시물 내용이 노출됩니다.   게시물 내용이 노출됩니다.  게시물 내용이 노출됩니다.   게시물 내용이 노출됩니다.  게시물 내용이 노출됩니다.  게시물 내용이 노출됩니다. 게시물 내용이 노출됩니다. 게시물 내용이 노출됩니다. 게시물 내용이 노출됩니다. 게시물 내용이 노출됩니다.</p><br>
+
+                        <p><img src="/images/temp/rectangle.jpg" alt="" /></p>
+                    </div>
+                </div>
+                <hr />                    
+                <div class="posts-group_footer">
+                    <div class="icon-group">        
+                        <div class="icon-group">         
+                           <div class="icon-group_icon">
+                                <a href="" class="handle">
+                                   <i class="icon icon-like icon-round"></i>   
+                                </a> 
+                           </div>                              
+                            <div class="icon-group_text">
+                               3
+                            </div>                               
+                        </div> 
+                        <div class="icon-group">         
+                           <div class="icon-group_icon">
+                                <a href="" class="handle">
+                                   <i class="icon icon-reply icon-round"></i>   
+                                </a> 
+                           </div>                              
+                            <div class="icon-group_text">
+                                2
+                            </div>                               
+                        </div> 
+                        <div class="icon-group">         
+                           <div class="icon-group_icon">
+                                <a href="" class="handle">
+                                   <i class="icon icon-scrap icon-round"></i>   
+                                </a> 
+                           </div>                              
+                            <div class="icon-group_text">
+                                3
+                            </div>                               
+                        </div> 
+                    </div>
+                    <div class="rightbar">
+                        <span class="hits">
+                            조회수 : 999+
+                        </span>
+                    </div> 
+                </div>    
+            </div>
+            <div class="form-actions">
+                <div class="form-actions_left"></div>
+                <div class="form-actions_right"></div>
+            </div>
+        </div>             
+        <div class="dialog-footer">
+            <div class="form-actions">
+                <div class="form-actions_left">
+                    <button type="button" class="btn btn-md color-c">
+                        <span class="btn-text">목록</span>
+                    </button>  
+                </div>
+                <div class="form-actions_right">                     
+                    <button type="button" class="btn btn-md color-c">
+                        <span class="btn-text">수정</span>
+                    </button>
+                     <button type="button" class="btn btn-md color-c">
+                        <span class="btn-text">삭제</span>
+                    </button>
+                </div>
+            </div>
+        </div>            
+        <div class="dialog-body">
+
+            <div class="data-group_list">
+                <div class="table-vertical table-nav">
+                    <div class="colgroup">
+                        <div class="col" style="width:80px;"></div>                            
+                        <div class="col"></div>       
+                        <div class="col" style="width:104px;"></div>
+                        <div class="col" style="width:104px;"></div>
+                    </div>   
+                    <div class="cellgroup">
+                        <div class="cell center">  
+                            <div class="inline">
+                                <div class="icon-group">         
+                                   <div class="icon-group_icon middle">
+                                        <i class="icon icon-xs icon-arrow-left color-b"></i>             
+                                   </div>                              
+                                    <div class="icon-group_text">
+                                        <span class="cell-text text color-c">이전글</span>
+                                    </div>                               
+                                </div> 
+                            </div>
+                            <span class="bar"></span>
+                        </div>
+                        <div class="cell">             
+                            <div class="subject-group">
+                                <span class="clamp">
+                                    <span class="subject"><a href=""> PAYDAY 2 : h3h3 Character Pac</a></span> 
+                                </span>                        
+                            </div>
+                        </div>
+
+                        <div class="cell right">             
+                            <span class="cell-text text color-c">냥이냥이</span>
+                        </div>
+
+                        <div class="cell right">
+                            <time class="cell-text text color-c">방금전</time>
+                        </div>
+                    </div>  
+                     <div class="cellgroup">
+                        <div class="cell center">  
+                            <div class="inline">
+                                <div class="icon-group">         
+                                   <div class="icon-group_icon middle">
+                                        <i class="icon icon-xs icon-arrow-right color-b"></i>             
+                                   </div>                              
+                                    <div class="icon-group_text">
+                                        <span class="cell-text text color-c">다음글</span>
+                                    </div>                               
+                                </div> 
+                            </div>
+                            <span class="bar"></span>
+                        </div>
+                        <div class="cell">             
+                            <div class="subject-group">
+                                <span class="clamp">
+                                    <span class="subject"><a href="">PAYDAY 2 : h3h3 Character Pack</a></span> 
+                                </span>                        
+                            </div>
+                        </div>
+
+                        <div class="cell right">             
+                            <span class="cell-text text color-c">냥이냥이</span>
+                        </div>
+
+                        <div class="cell right">
+                            <time class="cell-text text color-c">방금전</time>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </div>            
+        <button type="button" class="dialog-close"> <i class="icon icon-x icon-xs"></i></button>
+    </div>    
+</div>
+<div class="dialog dialog-posts-view">
+    <div class="dialog-content">
+        <div class="dialog-header">
+            <h3 class="dialog-title">Dungreed - Soundtrack</h3>
+        </div>   
+        <div class="dialog-body">
+
+            <div class="posts-group">
+                <div class="posts-group_header">
+                     <div class="thumb-group prfile-group">
+                        <div class="thumb-group_img">
+                             <img class="cover" src="/images/temp/42769d06-4d08-4b84-98c9-90d632a219b1.png" >
+                        </div>
+                        <div class="thumb-group_text">
+                            <div class="prfile-group_namebar">
+                                <span class="name">봉다미</span>
+                                <span class="nick">[스토미]</span>
+                            </div>
+                            <div class="prfile-group_timebar">
+                                <time datetime="" class="time">방금전</time>                            
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rightbar">
+                        <div class="icon-group">   
+                            <div class="icon-group">
+                                <div class="icon-group_icon">
+                                    <i class="icon icon-up icon-round color-a"></i>    
+                                </div>
+                            </div>   
+                            <div class="icon-group">
+                                <div class="icon-group_icon">
+                                    <i class="icon icon-star icon-round color-a"></i>    
+                                </div>
+                                <div class="icon-group_text">
+                                    <span class="text color-b">평점 8.70</span>
+                                </div>
+                                <div class="icon-group_icon middle">
+                                    <i class="icon icon-star icon-sm icon-full"></i>    
+                                    <i class="icon icon-star icon-sm icon-full"></i>  
+                                    <i class="icon icon-star icon-sm icon-full"></i>    
+                                    <i class="icon icon-star icon-sm icon-half"></i>    
+                                    <i class="icon icon-star icon-sm icon-empty"></i>    
+                                </div>
+                            </div>                 
+                        </div>    
+                    </div>
+                </div>
+                <div class="posts-group_body">    
+                    <div class="fr-view">
+                        <p>게시물 내용이 노출됩니다.  게시물 내용이 노출됩니다.  게시물 내용이 노출됩니다.  게시물 내용이 노출됩니다.  게시물 내용이 노출됩니다.   게시물 내용이 노출됩니다.  게시물 내용이 노출됩니다.   게시물 내용이 노출됩니다.  게시물 내용이 노출됩니다.  게시물 내용이 노출됩니다. 게시물 내용이 노출됩니다. 게시물 내용이 노출됩니다. 게시물 내용이 노출됩니다. 게시물 내용이 노출됩니다.</p><br>
+
+                        <p><img src="/images/temp/rectangle.jpg" alt="" /></p>
+                    </div>
+                </div>
+                <hr />
+                <div class="posts-group_footer">
+                    <div class="action">
+                        <div class="text-group">
+                            <div class="text-group_text">
+                                <p class="note">이 평가가 도움이 되나요?</p>
+                            </div>
+                            <div class="text-group_form">
+                                <div class="form-actions">
+                                    <div class="form-actions_left">
+                                        <button type="text" class="btn btn-xs color-b size-b">
+                                            <span class="btn-text">예 999+</span>
+                                        </button>
+                                        <button type="text" class="btn btn-xs color-b size-b">
+                                            <span class="btn-text">아니오 999+</span>
+                                        </button>       
+                                    </div>   
+                                </div>                                            
+                            </div>
+                        </div>       
+                    </div>
+                </div>
+                <hr />
+                <div class="posts-group_footer">
+                    <div class="icon-group">        
+                        <div class="icon-group">         
+                           <div class="icon-group_icon">
+                                <a href="" class="handle">
+                                   <i class="icon icon-like icon-round"></i>   
+                                </a> 
+                           </div>                              
+                            <div class="icon-group_text">
+                               3
+                            </div>                               
+                        </div> 
+                        <div class="icon-group">         
+                           <div class="icon-group_icon">
+                                <a href="" class="handle">
+                                   <i class="icon icon-reply icon-round"></i>   
+                                </a> 
+                           </div>                              
+                            <div class="icon-group_text">
+                                2
+                            </div>                               
+                        </div> 
+                        <div class="icon-group">         
+                           <div class="icon-group_icon">
+                                <a href="" class="handle">
+                                   <i class="icon icon-scrap icon-round"></i>   
+                                </a> 
+                           </div>                              
+                            <div class="icon-group_text">
+                                3
+                            </div>                               
+                        </div> 
+                    </div>
+                    <div class="rightbar">
+                        <span class="hits">
+                            조회수 : 999+
+                        </span>
+                    </div> 
+                </div>    
+            </div>
+            <div class="form-actions">
+                <div class="form-actions_left"></div>
+                <div class="form-actions_right"></div>
+            </div>
+        </div>             
+        <div class="dialog-footer">
+            <div class="form-actions">
+                <div class="form-actions_left">
+                    <button type="button" class="btn btn-md color-c">
+                        <span class="btn-text">목록</span>
+                    </button>  
+                </div>
+                <div class="form-actions_right">                     
+                    <button type="button" class="btn btn-md color-c">
+                        <span class="btn-text">수정</span>
+                    </button>
+                     <button type="button" class="btn btn-md color-c">
+                        <span class="btn-text">삭제</span>
+                    </button>
+                </div>
+            </div>
+        </div>            
+        <div class="dialog-body">                
+            <div class="data-group_list">
+                <div class="table-vertical table-nav">
+                    <div class="colgroup">
+                        <div class="col" style="width:80px;"></div>                            
+                        <div class="col"></div>       
+                        <div class="col" style="width:104px;"></div>
+                        <div class="col" style="width:104px;"></div>
+                    </div>   
+                    <div class="cellgroup">
+                        <div class="cell center">  
+                            <div class="inline">
+                                <div class="icon-group">         
+                                   <div class="icon-group_icon middle">
+                                        <i class="icon icon-xs icon-arrow-left color-b"></i>             
+                                   </div>                              
+                                    <div class="icon-group_text">
+                                        <span class="cell-text text color-c">이전글</span>
+                                    </div>                               
+                                </div> 
+                            </div>
+                            <span class="bar"></span>
+                        </div>
+                        <div class="cell">             
+                            <div class="subject-group">
+                                <span class="clamp">
+                                    <span class="subject"><a href="">PAYDAY 2 : h3h3 Character Pack</a></span> 
+                                </span>                        
+                            </div>
+                        </div>
+
+                        <div class="cell right">             
+                            <span class="cell-text text color-c">냥이냥이</span>
+                        </div>
+
+                        <div class="cell right">
+                            <time class="cell-text text color-c">방금전</time>
+                        </div>
+                    </div>  
+                     <div class="cellgroup">
+                        <div class="cell center">  
+                            <div class="inline">
+                                <div class="icon-group">         
+                                   <div class="icon-group_icon middle">
+                                        <i class="icon icon-xs icon-arrow-right color-b"></i>             
+                                   </div>                              
+                                    <div class="icon-group_text">
+                                        <span class="cell-text text color-c">다음글</span>
+                                    </div>                               
+                                </div> 
+                            </div>
+                            <span class="bar"></span>
+                        </div>
+                        <div class="cell">             
+                            <div class="subject-group">
+                                <span class="clamp">
+                                    <span class="subject"><a href="">PAYDAY 2 : h3h3 Character Pack</a></span> 
+                                </span>                        
+                            </div>
+                        </div>
+
+                        <div class="cell right">             
+                            <span class="cell-text text color-c">냥이냥이</span>
+                        </div>
+
+                        <div class="cell right">
+                            <time class="cell-text text color-c">방금전</time>
+                        </div>
+                    </div>  
+                </div>
+            </div>                
+        </div>
+        <button type="button" class="dialog-close"> <i class="icon icon-x icon-xs"></i></button>
+    </div>    
+</div>
+<div class="dialog dialog-rateit">
+    <div class="dialog-content">
+        <div class="dialog-header">
+            <h3 class="dialog-title">Dungreed - Soundtrack</h3>
+        </div>   
+        <div class="dialog-body">
+
+            <p class="note">
+                이 게임의 좋았던 점 또는 싫었던 점, 그리고 이를 다른 사람들에게 추천하는지 여부에 대해 써주세요. <br />
+                정중하게 써주셔야 하며 <u class="text color-a">규칙 및 기준</u> 을 지키셔야 합니다.   
+            </p>
+            <hr />
+           <div class="form-horizontal">
+                <div class="colgroup">
+                    <div class="col" style="width:100%"></div>
+                </div>
+                <div class="form-group">                       
+                    <div class="form-body middle">                            
+                        <div class="form-tag"><textarea class="form-control" style="height:314px;" placeholder="내용을 입력해 주세요."></textarea></div>
+                    </div>
+                </div>
+            </div>
+            <div class="form-horizontal">
+                <div class="colgroup">
+                    <div class="col" style="width:333px"></div>
+                    <div class="col"></div>
+                </div>
+                <div class="form-group">
+                    <div class="form-header middle">
+                        <span class="text require">이 게임을 추천 하시겠습니까? (선택)</span>
+                    </div>
+                    <div class="form-body middle">                            
+                        <div class="radio-group">
+                            <div class="cell">
+                                <label class="radio">
+                                    <input type="radio" class="radio_form" />    
+                                    <span class="radio_icon"></span> 
+                                    <span class="radio_text">예</span>
+                                </label>
+                            </div>
+                            <div class="cell">
+                                <label class="radio">
+                                    <input type="radio" class="radio_form" />    
+                                    <span class="radio_icon"></span> 
+                                    <span class="radio_text">아니오</span>
+                                </label>
+                            </div>
+                            <div class="cell">
+                                <label class="radio">
+                                    <input type="radio" class="radio_form" />    
+                                    <span class="radio_icon"></span> 
+                                    <span class="radio_text">선택안함</span>
+                                </label>
+                            </div>
+                        </div>    
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-header middle">
+                        <span class="text require">이 게임에 몇 점을 주시겠습니까? (필수)</span>
+                    </div>
+                    <div class="form-body middle">                            
+                        <div class="icon-group">                               
+                            <div class="icon-group_icon middle">
+                                <i class="icon icon-star icon-sm icon-full"></i>    
+                                <i class="icon icon-star icon-sm icon-full"></i>  
+                                <i class="icon icon-star icon-sm icon-full"></i>    
+                                <i class="icon icon-star icon-sm icon-half"></i>    
+                                <i class="icon icon-star icon-sm icon-empty"></i>    
+                            </div>
+                            <div class="icon-group_text">
+                                <span class="text color-b">평점 8.70</span>
+                            </div>
+
+                        </div>       
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-header middle">
+                        <span class="text require">공개설정</span>
+                    </div>
+                    <div class="form-body middle">                            
+                        <div class="radio-group">
+                            <div class="cell">
+                                <label class="radio">
+                                    <input type="radio" class="radio_form" />    
+                                    <span class="radio_icon"></span> 
+                                    <span class="radio_text">전체공개</span>
+                                </label>
+                            </div>
+                            <div class="cell">
+                                <label class="radio">
+                                    <input type="radio" class="radio_form" />    
+                                    <span class="radio_icon"></span> 
+                                    <span class="radio_text">친구만 공개</span>
+                                </label>
+                            </div>
+                        </div>    
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-header middle">
+                        <span class="text require">댓글설정</span>
+                    </div>
+                    <div class="form-body middle">                            
+                        <div class="radio-group">
+                            <div class="cell">
+                                <label class="radio">
+                                    <input type="radio" class="radio_form" />    
+                                    <span class="radio_icon"></span> 
+                                    <span class="radio_text">댓글허용</span>
+                                </label>
+                            </div>
+                        </div>        
+                    </div>
+                </div>
+
+            </div>
+        </div> 
+        <div class="dialog-footer">                
+            <div class="form-actions">
+                <div class="form-actions_right">
+                    <button type="text" class="btn btn-md color-c size-b">
+                        <span class="btn-text">취소</span>
+                    </button>
+                    <button type="text" class="btn btn-md color-c size-a">
+                        <span class="btn-text">등록</span>
+                    </button>       
+                </div>   
+            </div>                    
+        </div>
+        <button type="button" class="dialog-close"> <i class="icon icon-x icon-xs"></i></button>
+    </div>    
+</div>
+
+
+
+<!--
+    <script>
+        function animate(){            
+            @keyframes example {
+                from {background-color: red;}
+                to {background-color: yellow;}
+            }                
+        }
+        animate.prototype.keyframe = function(){
+                    
+        }        
+    </script>            
+-->
+
+
+</body>
+</html>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="24px" height="24px" viewBox="100 100 24 24" enable-background="new 100 100 24 24" xml:space="preserve">
+<g>
+	<g transform="translate(100 100)">
+		<defs>
+			<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+				<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+			</filter>
+		</defs>
+		<mask maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24" id="b">
+			<g filter="url(#Adobe_OpacityMaskFilter)">
+				<circle id="a" fill="#FFFFFF" cx="12" cy="12" r="12"/>
+			</g>
+		</mask>
+		<g mask="url(#b)">
+			<path fill-opacity="0.4" d="M0,0h24v24H0V0z"/>
+		</g>
+		<path fill="none" stroke="#979797" d="M14.342,7.725L15.366,9.5h0.144H9.067h6.299L14.342,7.725z M9.658,7.725l0.592-1.024
+			L9.658,7.725z M7.18,11.5c-0.276,0-0.5,0.224-0.5,0.5c0,0.028,0.002,0.055,0.007,0.082l0.667,4
+			c0.04,0.241,0.249,0.418,0.493,0.418h8.305c0.245,0,0.453-0.177,0.494-0.418l0.666-4c0.046-0.272-0.139-0.53-0.41-0.575
+			c-0.027-0.004-0.055-0.007-0.082-0.007H7.18z"/>
+		<defs>
+			<filter id="Adobe_OpacityMaskFilter_1_" filterUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+				<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+			</filter>
+		</defs>
+		<mask maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24" id="d">
+			<g filter="url(#Adobe_OpacityMaskFilter_1_)">
+				<path id="c" fill="#FFFFFF" d="M9.5,9h5l-1.184-2.049c-0.139-0.238-0.059-0.545,0.18-0.685s0.544-0.06,0.684,0.179
+					c0.001,0.002,0.002,0.004,0.004,0.006L15.654,9H17.5C17.776,9,18,9.224,18,9.5S17.776,10,17.5,10h-11C6.224,10,6,9.776,6,9.5
+					S6.224,9,6.5,9h1.845l1.472-2.549c0.14-0.238,0.446-0.318,0.685-0.179c0.236,0.139,0.317,0.441,0.182,0.679L9.5,9z M7.18,11
+					h9.64c0.552,0,1,0.448,0.999,1c0,0.055-0.005,0.109-0.013,0.164l-0.668,4C17.059,16.646,16.642,17,16.152,17H7.847
+					c-0.489,0-0.906-0.354-0.986-0.836l-0.667-4c-0.09-0.545,0.278-1.06,0.823-1.15C7.07,11.004,7.125,11,7.18,11z"/>
+			</g>
+		</mask>
+		<g mask="url(#d)">
+			<path fill="#FFFFFF" d="M0,0h24v24H0V0z"/>
+		</g>
+	</g>
+</g>
+</svg>

@@ -1,0 +1,17 @@
+{
+  "name": "seed",
+  "scripts": {
+    "start": "gulp",
+    "dist": "gulp dist"
+  },
+  "devDependencies": {
+    "express": "^4.16.3",
+    "gulp": "^3.9.1",
+    "gulp-less": "^3.5.0",
+    "gulp-nodemon": "^2.2.1",
+    "gulp-nunjucks-render": "^2.2.2",
+    "gulp.spritesmith": "^6.9.0",
+    "nodemon": "^1.17.4",
+    "nunjucks": "^3.1.4"
+  }
+}
