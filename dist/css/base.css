@@ -121,15 +121,15 @@ a:hover, a:focus {
 }
 
 .info span.info-drag {
-	background-image: url(/images/drag.svg);
+	background-image: url(../images/drag.svg);
 }
 
 .info span.info-keys {
-	background-image: url(/images/keys.svg);
+	background-image: url(../images/keys.svg);
 }
 
 .info span.info-switch {
-	background-image: url(/images/switchmin.svg);
+	background-image: url(../images/switchmin.svg);
 	background-size: 65%;
 }
 
