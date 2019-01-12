@@ -73,7 +73,7 @@ button.slider-switch {
 	color: transparent;
 	position: relative;
 	border: none;
-	background: url(../images/switchmin.svg) no-repeat center center;
+	background: url(/images/switchmin.svg) no-repeat center center;
 	background-size: 90%;
 	float: right;
 	outline: none;
@@ -89,7 +89,7 @@ button.slider-switch {
 }
 
 button.slider-switch.view-maxi {
-	background-image: url(../images/switchmax.svg)
+	background-image: url(/images/switchmax.svg)
 }
 
 button.slider-switch:hover {
